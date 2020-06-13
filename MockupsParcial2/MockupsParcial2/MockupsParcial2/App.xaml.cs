@@ -1,4 +1,5 @@
 ﻿using System;
+using MockupsParcial2.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace MockupsParcial2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new EstudiantePage();
         }
 
         protected override void OnStart()
